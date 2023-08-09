@@ -1,0 +1,47 @@
+name: character_chainer
+description: Handwriting practice tool.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.1
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  get_it: ^7.2.0
+  google_mlkit_digital_ink_recognition: ^0.6.0
+  rxdart: ^0.27.7
+  dotted_border: ^2.0.0+3
+  ruby_text: ^3.0.1
+  url_launcher: ^6.1.10
+  google_fonts: ^5.1.0
+  flutter_tts: ^3.7.0
+  number_to_words_chinese: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+
+flutter_launcher_icons:
+  image_path_android: "assets/icon.png"
+  image_path_ios: "assets/icon.png"
+  android: true
+  ios: true
+  min_sdk_android: 17 # default: 21
+  remove_alpha_ios: true
+  image_path: "assets/icon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
