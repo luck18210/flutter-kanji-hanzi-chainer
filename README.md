@@ -7,13 +7,13 @@ This is a smartphone app for practicing hand-writing Chinese characters by chain
 ### 虫 虹 工 紅。寸 吋 囗 吐 土。暑、寒、暖。 
 
 The app supports Japanese, Traditional Chinese, and Simplified Chinese character sets.  
-I originally prototyped a [JS/HMTL/CSS webapp](https://github.com/CallumBeaney/rensou-kanji-hinge) version.  
+I originally prototyped a [JS/HMTL/CSS webapp](https://github.com/luck18210/japanese-kanji-hinge) version.  
     
 <img style="width:650px;" src="https://raw.githubusercontent.com/CallumBeaney/kanji-hanzi-chainer/master/preview.png">
   
   
 # Installation
-Download and install the APK file from the [Releases](https://github.com/CallumBeaney/kanji-hanzi-chainer/releases/tag/v1.0.0) section.  
+Download and install the APK file from the [Releases](https://github.com/luck18210/flutter-kanji-hanzi-chainer/releases/tag/v1.0.0) section.  
 Upon installation the Google ML kit language models will download.  
 These cannot be packaged natively [because Google](https://developers.google.com/ml-kit/tips/installation-paths#how_to_choose_between_bundled_and_unbundled).  
 This will likely take ~10 seconds.  
